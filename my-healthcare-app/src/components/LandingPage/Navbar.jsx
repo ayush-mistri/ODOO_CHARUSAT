@@ -60,13 +60,13 @@ export function Navbar() {
             <div className="flex space-x-3">
               <Link
                 to="/auth?type=login"
-                className="py-2 px-5 bg-blue-500 text-white rounded-lg text-lg text-center hover:bg-blue-600 transition"
+                className="py-2 px-4 bg-blue-500 text-white rounded-lg text-lg text-center hover:bg-blue-600 transition"
               >
                 Login
               </Link>
               <Link
                 to="/auth?type=signup"
-                className="py-2 px-5 bg-green-500 text-white rounded-lg text-lg text-center hover:bg-green-600 transition"
+                className="py-2 px-4 bg-green-500 text-white rounded-lg text-lg text-center hover:bg-green-600 transition"
               >
                 Signup
               </Link>
